@@ -30,6 +30,7 @@ I have the following qualities:
 - JS
 - React
 - Redux
+- Figma, Photoshop
 
 ---
 
