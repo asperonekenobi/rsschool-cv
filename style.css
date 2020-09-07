@@ -1,0 +1,113 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+
+.main {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 30% 1fr;
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 5px solid #292b2f;
+
+}
+
+#section-left {
+  grid-area: left;
+  background-color: #292b2f;
+  color: #ffffff;
+  padding-top: 30%;
+  text-align: center;
+}
+
+#section-left .section-intro .logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: center no-repeat url('./ava.jpg');
+}
+
+.section-intro hr {
+  display: block;
+  width: 40px;
+  height: 2px;
+  border: 0px;
+  border-top: 2px solid;
+}
+
+.dob {
+  text-decoration: overline underline;
+}
+
+.section-intro .content {
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-top: 40px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+#section-right {
+  grid-area: right;
+}
+
+/* #section-right .section {
+  margin: 0 0 30px 0;
+} */
+
+.wrapper {
+  padding: 1em;
+
+}
+
+.fa {
+  margin-right: 10px
+}
+
+.wrapper .title {
+  color: #7f8594;
+  font-size: 1.3em;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
